@@ -8,7 +8,7 @@ use IPC::Cmd 'can_run';
 use Getopt::Long;
 
 my $debug   = 0;
-my $apxs    = 'apxs2';
+my $apxs    = 'apxs';
 my @flags   = do { no warnings; qw[-i -a -c -Wl,-Wall -Wl,-lm]; };
 my $my_lib  = 'mod_statsd.c';
 my @inc;
